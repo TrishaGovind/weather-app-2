@@ -1,0 +1,11 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(107 116 133 / 22%);
+}
+
+.container {
+  color: #ffffff;
+  display: block;
+  max-width: 600px;
+  min-width: 350px;
+}
