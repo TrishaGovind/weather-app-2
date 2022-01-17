@@ -31,7 +31,7 @@ export default function Weather() {
           <div className="col-4 mt-2 pe-5 pt-3">
             <ul>
               <li>Monday</li>
-              <li>17 January 2022</li>
+              <li>17 January</li>
               <li>11:11</li>
             </ul>
           </div>
