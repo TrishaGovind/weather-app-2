@@ -33,20 +33,11 @@ export default function Weather(props) {
             <input type="submit" value="Search" className="btn btn-primary" />
           </form>
           <div className="row mt-3">
-            <div className="col-4 ps-5 pt-3">
+            <div className="col-6 ps-5 pt-3">
               <h1>{weatherData.city}</h1>
               <h5>{weatherData.country}</h5>
             </div>
-            <div className="col-4">
-              <img
-                src="http://openweathermap.org/img/wn/01d@2x.png"
-                alt="clear sky"
-                className="center-block"
-                width="100"
-              />
-            </div>
-
-            <div className="col-4 mt-2 pe-5 pt-3">
+            <div className="col-6 mt-2 pe-5 pt-2">
               <ul>
                 <li>
                   <FormattedDate date={weatherData.date} />
