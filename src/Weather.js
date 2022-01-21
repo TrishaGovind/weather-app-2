@@ -17,6 +17,7 @@ export default function Weather(props) {
       feelsLike: response.data.main.feels_like,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
+      icon: response.data.weather[0].icon,
     });
   }
 
