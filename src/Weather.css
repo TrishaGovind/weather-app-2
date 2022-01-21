@@ -10,14 +10,21 @@
 .Weather form {
   margin: 15px auto;
   text-align: left;
-  width: 88%;
+  width: 86%;
   display: flex;
+}
+.Weather .form-control {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 0 6px;
 }
 .Weather .btn {
   background-color: rgb(107 116 133);
   color: white;
   border-color: white;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  padding: 6px;
 }
 .Weather .btn:hover {
   background-color: rgba(255, 255, 255, 0.945);
