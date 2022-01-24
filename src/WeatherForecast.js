@@ -25,11 +25,11 @@ export default function WeatherForecast(props) {
             <ul className="text-center pt-2">
               <li>
                 <span className="WeatherForecast-max">
-                  {forecast[0].temp.max}º
+                  {Math.round(forecast[0].temp.max)}º
                 </span>
                 |
                 <span className="WeatherForecast-min">
-                  {forecast[0].temp.min}º
+                  {Math.round(forecast[0].temp.min)}º
                 </span>
               </li>
             </ul>
