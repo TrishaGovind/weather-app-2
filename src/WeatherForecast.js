@@ -8,6 +8,7 @@ export default function WeatherForecast(props) {
 
   function handleResponse(response) {
     setForecast(response.data.daily);
+    setLoaded(true);
   }
 
   if (loaded) {
@@ -16,15 +17,20 @@ export default function WeatherForecast(props) {
         <div className="row">
           <div className="col-4 pt-1">
             <ul className="text-center pt-2">
-              <li>Monday</li>
+              <li>{forecast[0].dt}</li>
             </ul>
           </div>
 
           <div className="col-4 pt-1">
             <ul className="text-center pt-2">
               <li>
-                <span className="WeatherForecast-max">29º</span>|
-                <span className="WeatherForecast-min">19º</span>
+                <span className="WeatherForecast-max">
+                  {forecast[0].temp.max}º
+                </span>
+                |
+                <span className="WeatherForecast-min">
+                  {forecast[0].temp.min}º
+                </span>
               </li>
             </ul>
           </div>
@@ -32,7 +38,7 @@ export default function WeatherForecast(props) {
           <div className="col-4">
             <ul>
               <li>
-                <WeatherIcon code={props.data.icon} size={40} />
+                <WeatherIcon code={forecast[0].weather[0].icon} size={40} />
               </li>
             </ul>
           </div>
