@@ -10,7 +10,7 @@
 .Weather form {
   margin: 15px auto;
   text-align: left;
-  width: 86%;
+  width: 90%;
   display: flex;
 }
 .Weather .form-control {
@@ -89,6 +89,10 @@
 .Weather .prevision-container {
   padding: 4px 10px 2px;
 }
+.Weather .card-body {
+  padding: 1rem 0rem;
+}
+
 .Weather .prevision-container .col {
   padding: 0 2px;
 }

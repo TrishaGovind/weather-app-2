@@ -31,8 +31,8 @@ export default function WeatherForecastDay(props) {
   return (
     <div className="WeatherForecastDay">
       <div className="row mt-3 mb-3">
-        <div className="col-4 pt-1 pe-5">
-          <ul className="text-center pt-2">
+        <div className="col-4 pt-1">
+          <ul className="text-left pt-2 ps-3">
             <li>{day()}</li>
           </ul>
         </div>
