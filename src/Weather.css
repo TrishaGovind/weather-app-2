@@ -10,7 +10,7 @@
 .Weather form {
   margin: 15px auto;
   text-align: left;
-  width: 90%;
+  width: 95%;
   display: flex;
 }
 .Weather .form-control {
