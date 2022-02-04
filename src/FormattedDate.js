@@ -39,6 +39,7 @@ export default function FormattedDate(props) {
   }
   return (
     <div>
+      <h6 className="text-end mb-1">Last updated:</h6>
       {date} {month}
       <br />
       {day}
